@@ -1,7 +1,7 @@
 import moment from "moment";
 
-var dateBase = moment('31/12/2009', 'DD/MM/YYYY').utcOffset(0);
-const numberOfElements = 365 * 20;
+var dateBase = moment('31/12/1999', 'DD/MM/YYYY').utcOffset(0);
+const numberOfElements = (365 * 22);
 
 let arrayOfStocks = [];
 
@@ -21,6 +21,7 @@ for (let i = 0; i <= numberOfElements; i++) {
         "date": dateBase.add(1, 'day').toDate(),
         "price": getRandom(10, 50) + i
     }
+    console.log(stock);
     arrayOfStocks.push(stock);
 }
 
