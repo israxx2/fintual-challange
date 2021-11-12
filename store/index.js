@@ -1,6 +1,6 @@
 import moment from "moment";
 
-var dateBase = moment('01/01/2010', 'DD/MM/YYYY').utcOffset(0);
+var dateBase = moment('31/12/2009', 'DD/MM/YYYY').utcOffset(0);
 const numberOfElements = 365 * 20;
 
 let arrayOfStocks = [];
