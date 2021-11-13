@@ -1,12 +1,31 @@
 ## fintual-challange
 
-The programming was made in javascript language using Node JS.
+El programa fue realizado en Javascript utilizando NodeJS. Es necesario para correr el programa. ( instalenlo por favor :( )
 
-indications
+Indicaciones:
 
-- Open the terminal in the root path of the repository.
-- run "npm install" command
-- run "node index.js --START_DATE={startDate} --END_DATE={endDate}". Example: node index.js --START_DATE=01/01/2020 --END_DATE=31/12/2020
-- NOTE: The "database" contains data between the years 2000 (inclusive) to 2021 (inclusive).
+- Luego de clonar el repositorio debe abrir la terminal y dirigirse a la ruta raiz del respositorio.
+
+- Ejecutar el siguiente comando:
+
+<!-- {% filename %}command-line{% endfilename %} -->
+    
+    npm install
+ 
+- Para correr el programa se debe utilizar el siguiente comando:
+
+<!-- {% filename %}command-line{% endfilename %} -->
+    
+    node index.js --START_DATE=startDate --END_DATE=endDate
+
+> donde `startDate` y `endDate` deben tener el siguiente formato: DD/MM/YYYY.
+
+### Ejemplo
+
+<!-- {% filename %}command-line{% endfilename %} -->
+    
+    node index.js --START_DATE=01/01/2020 --END_DATE=31/12/2020  
+
+> **Nota** La "base de datos" contiene data entre el 2000 (incluyendo) y 2021 (incluyendo).
 
 By Eduardo I. González T. For Fintual <3
