@@ -21,7 +21,6 @@ for (let i = 0; i <= numberOfElements; i++) {
         "date": dateBase.add(1, 'day').toDate(),
         "price": getRandom(10, 50) + i
     }
-    console.log(stock);
     arrayOfStocks.push(stock);
 }
 
