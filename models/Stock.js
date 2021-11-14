@@ -28,7 +28,7 @@ export default class Stock {
 
                 if (instanceOfMoment.utcOffset(0).diff(inputDateInstanceOfMoment, 'days') === 0) {
                     amount += stock.price;
-                    console.log(`For the ${inputDateInstanceOfMoment.format('DD/MM/YYYY')} the following stock has been found\x1b[36m ${stock.price}\x1b[0m stock(s)`);
+                    console.log(`The stock price registered by the date ${inputDateInstanceOfMoment.format('DD/MM/YYYY')} was\x1b[36m ${stock.price}\x1b[0m`);
                 }
 
             });
